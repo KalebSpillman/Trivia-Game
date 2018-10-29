@@ -12,6 +12,8 @@
 		1984FC1D2178D7DD00EDDB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1984FC1B2178D7DD00EDDB64 /* Main.storyboard */; };
 		1984FC1F2178D7DE00EDDB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1984FC1E2178D7DE00EDDB64 /* Assets.xcassets */; };
 		1984FC222178D7DE00EDDB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1984FC202178D7DE00EDDB64 /* LaunchScreen.storyboard */; };
+		1984FC2E217A2B8500EDDB64 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984FC2D217A2B8500EDDB64 /* TriviaQuestion.swift */; };
+		1984FC30217F71B000EDDB64 /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984FC2F217F71B000EDDB64 /* AddQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1984FC1E2178D7DE00EDDB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1984FC212178D7DE00EDDB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1984FC232178D7DE00EDDB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1984FC2D217A2B8500EDDB64 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		1984FC2F217F71B000EDDB64 /* AddQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1984FC1E2178D7DE00EDDB64 /* Assets.xcassets */,
 				1984FC202178D7DE00EDDB64 /* LaunchScreen.storyboard */,
 				1984FC232178D7DE00EDDB64 /* Info.plist */,
+				1984FC2D217A2B8500EDDB64 /* TriviaQuestion.swift */,
+				1984FC2F217F71B000EDDB64 /* AddQuestionViewController.swift */,
 			);
 			path = TriviaGame;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				1984FC1A2178D7DD00EDDB64 /* ViewController.swift in Sources */,
 				1984FC182178D7DD00EDDB64 /* AppDelegate.swift in Sources */,
+				1984FC30217F71B000EDDB64 /* AddQuestionViewController.swift in Sources */,
+				1984FC2E217A2B8500EDDB64 /* TriviaQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
